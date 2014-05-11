@@ -32,3 +32,9 @@ Main site: https://www.heroku.com/
 Ruby on Heroku: https://devcenter.heroku.com/articles/getting-started-with-ruby
 
 Using rack: https://devcenter.heroku.com/articles/rack
+
+Deployed Example
+================
+
+http://vast-springs-3657.herokuapp.com/
+
