@@ -6,6 +6,8 @@ Simple Sinatra demo
 Pointers
 ========
 
+http://ruby-doc.org/
+
 http://www.sinatrarb.com/
 
 https://www.heroku.com/
