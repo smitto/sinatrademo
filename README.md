@@ -9,6 +9,19 @@ Pointers
 Fork this repo before you modify it, then clone it from your fork so you can
 commit your work.
 
+I would suggest using rbenv to manage your Ruby version, it can be found here:
+
+https://github.com/rbenv/rbenv
+
+The project was last tested with Ruby version 2.4.4 so that should be your
+target for rbenv.
+
+You will also want to install bundler once you have Ruby installed:
+
+```
+gem install bundle
+```
+
 Once you have a copy of the repo you should be able to do the following in the
 cloned directory:
 
