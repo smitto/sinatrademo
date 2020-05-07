@@ -25,7 +25,7 @@ asdf install
 You will also want to install bundler once you have Ruby installed:
 
 ```
-gem install bundle
+gem install bundler
 ```
 
 Once you have a copy of the repo you should be able to do the following in the
