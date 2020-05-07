@@ -9,12 +9,18 @@ Pointers
 Fork this repo before you modify it, then clone it from your fork so you can
 commit your work.
 
-I would suggest using rbenv to manage your Ruby version, it can be found here:
+I would suggest using asdf to manage your Ruby version, it can be found here:
 
-https://github.com/rbenv/rbenv
+https://asdf-vm.com/#/core-manage-asdf-vm
 
 The project was last tested with Ruby version 2.4.4 so that should be your
-target for rbenv.
+target for asdf.
+
+Once asdf is installed, you will want to run the following to install ruby 2.4.4: 
+
+```
+asdf install
+```
 
 You will also want to install bundler once you have Ruby installed:
 
