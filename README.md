@@ -34,7 +34,16 @@ cloned directory:
 ```
 bundle install
 rackup
+
 ```
+
+If rackup causes an issue, try:
+
+```
+bundle exec rackup
+```
+
+which will force the project to use the ruby version it's bundled with. 
 
 Then you will be able to see the page produced with your browser at:
 http://localhost:9292
