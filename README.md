@@ -13,10 +13,10 @@ I would suggest using asdf to manage your Ruby version, it can be found here:
 
 https://asdf-vm.com/#/core-manage-asdf-vm
 
-The project was last tested with Ruby version 2.6.6 so that should be your
+The project was last tested with Ruby version 2.7.5 so that should be your
 target for asdf.
 
-Once asdf is installed, you will want to run the following to install ruby 2.6.6: 
+Once asdf is installed, you will want to run the following to install ruby 2.7.5: 
 
 ```
 asdf install
