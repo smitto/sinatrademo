@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $.getJSON("/cakes.json", function (cakes) {
+          $.each(cakes, function(id, cake) {
+            $("#cake-list-append").append("<li>" + cake + "</li>");
+          });
+
+          var cakeList = "";
+          console.log(cakes);
+          cakes.forEach(function(cake) {
+            cakeList += "<li>" + cake + "</li>";
+          });
+          $("#cake-list-string").html(cakeList);
+        });
+    </script>
+  </head>
+
+  <body>
+    <h1>Cakes With Append</h1>
+    <ol id="cake-list-append"></ol>
+    <h1>Cakes With Constructed HTML String</h1>
+    <ol id="cake-list-string"></ol>
+  </body>
+</html>

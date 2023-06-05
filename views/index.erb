@@ -1,0 +1,11 @@
+<h1>Cakes with Index and BRs</h1>
+<% @cakes.each_with_index do |cake, index| %>
+  <%= "#{index}. #{cake}" %><br>
+<% end %>
+
+<h1>Cakes with Ordered List</h1>
+<ol>
+  <% @cakes.each do |cake| %>
+    <li><%= cake %></li>
+  <% end %>
+</ol>
